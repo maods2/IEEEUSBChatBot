@@ -1,0 +1,3751 @@
+{
+  "name": "IEEE",
+  "intents": [
+    {
+      "intent": "submeteArtigo",
+      "examples": [
+        {
+          "text": "Quais são as instruções para submeter um artigo?"
+        },
+        {
+          "text": "Quero enviar um artigo para o IEEE, o que faço?"
+        },
+        {
+          "text": "Como consigo submeter um artigo?"
+        },
+        {
+          "text": "Qual o procedimento necessário para eu submeter um artigo?"
+        },
+        {
+          "text": "Como faço pra submeter um artigo?"
+        }
+      ],
+      "description": "Como submeter um artigo?"
+    },
+    {
+      "intent": "Negative",
+      "examples": [
+        {
+          "text": "Não"
+        },
+        {
+          "text": "horrivel"
+        },
+        {
+          "text": "nada bom"
+        },
+        {
+          "text": "não to tendo um bom dia"
+        },
+        {
+          "text": "Ele não ta legal"
+        },
+        {
+          "text": "Não estou"
+        },
+        {
+          "text": "nem"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "horroroso"
+        },
+        {
+          "text": "uma merda"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "OrganizacaoIee",
+      "examples": [
+        {
+          "text": "quais são os capitulos do ieee USB?"
+        },
+        {
+          "text": "quais são os capítulos do ieee?"
+        },
+        {
+          "text": "quais são os capitulos do ieee"
+        },
+        {
+          "text": "Como está organizado o IEEE?"
+        },
+        {
+          "text": "Como esta dividido o IEEE?"
+        },
+        {
+          "text": "Como é organizado o iee usb?"
+        },
+        {
+          "text": "Quais principais áreas do IEEE?"
+        }
+      ],
+      "description": "Como esta dividido o ieee"
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Vamos falar de outro assunto?"
+        },
+        {
+          "text": "Vamos mudar de assunto."
+        },
+        {
+          "text": "Vamos mudar de assunto?"
+        },
+        {
+          "text": "Vamos falar sobre outra coisa."
+        },
+        {
+          "text": "Sobre o que mais podemos falar?"
+        },
+        {
+          "text": "Quero lidar com outro problema."
+        },
+        {
+          "text": "Quero falar de outra coisa."
+        },
+        {
+          "text": "Quero ajuda sobre outra coisa."
+        },
+        {
+          "text": "Preciso de outra coisa."
+        },
+        {
+          "text": "Preciso de algo totalmente diferente."
+        },
+        {
+          "text": "Podemos falar sobre outra coisa?"
+        },
+        {
+          "text": "Não tenho mais o que falar sobre isso."
+        },
+        {
+          "text": "Não quero falar disso."
+        },
+        {
+          "text": "Não quero falar desse assunto."
+        },
+        {
+          "text": "Não é disso que preciso, vamos mudar de assunto."
+        },
+        {
+          "text": "Esse assunto não tem nada a ver com o que preciso."
+        },
+        {
+          "text": "Esse assunto não tem nada a ver."
+        },
+        {
+          "text": "Esse assunto é irrelevante."
+        },
+        {
+          "text": "Esse assunto é inconveniente."
+        }
+      ],
+      "description": "Mude para um tópico diferente."
+    },
+    {
+      "intent": "OqehChatbot",
+      "examples": [
+        {
+          "text": "O que é chatbot?"
+        },
+        {
+          "text": "Como funciona um chatbot?"
+        },
+        {
+          "text": "como que eu uso um chatbot?"
+        },
+        {
+          "text": "o que seria chatbot?"
+        },
+        {
+          "text": "O que é oChatBot?"
+        },
+        {
+          "text": "O que é um chatbot?"
+        },
+        {
+          "text": "Para que serve chatbot?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ComoFazerMembresia",
+      "examples": [
+        {
+          "text": "Quais os passos necessários para ter membresia?"
+        },
+        {
+          "text": "Como faço membresia?"
+        },
+        {
+          "text": "Qual o processo para fazer membresia?"
+        },
+        {
+          "text": "Por onde faço membresia?"
+        },
+        {
+          "text": "como se faz a membresia?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Quem_faz_parte",
+      "examples": [
+        {
+          "text": "Quem mais faz parte do ramo?"
+        },
+        {
+          "text": "Tem professor no ramo?"
+        },
+        {
+          "text": "Quem faz parte do ramo ieee usb?"
+        },
+        {
+          "text": "Tem outras pessoas além de alunos no ieee usb?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Estou pegando a manha disso."
+        },
+        {
+          "text": "Eu gostei do que você fez aí."
+        },
+        {
+          "text": "Gostei muito do seu trabalho."
+        },
+        {
+          "text": "Incrível como você é bom!"
+        },
+        {
+          "text": "Isso é divertido."
+        },
+        {
+          "text": "vlw"
+        },
+        {
+          "text": "Você é o cara."
+        },
+        {
+          "text": "legal!"
+        },
+        {
+          "text": "Você me deu exatamente o que eu precisava."
+        },
+        {
+          "text": "Você detonou."
+        },
+        {
+          "text": "Você é demais."
+        },
+        {
+          "text": "Você é adorável."
+        },
+        {
+          "text": "Genial! Isso é exatamente o que eu pensei."
+        },
+        {
+          "text": "Você é inteligente."
+        },
+        {
+          "text": "Você é legal."
+        },
+        {
+          "text": "Ótimo!"
+        },
+        {
+          "text": "Muito obrigado."
+        },
+        {
+          "text": "É muito louco o que um robô pode fazer."
+        },
+        {
+          "text": "Muito inteligente."
+        },
+        {
+          "text": "Isso é muito legal."
+        },
+        {
+          "text": "Muito bom, obrigado."
+        },
+        {
+          "text": "Espero trabalhar com você novamente."
+        },
+        {
+          "text": "Estou impressionado com você."
+        }
+      ],
+      "description": "Exprima sentimento positivo ou gratidão."
+    },
+    {
+      "intent": "quais_projetos_desenvolvem",
+      "examples": [
+        {
+          "text": "quais os projetos que voces desenvolvem?"
+        },
+        {
+          "text": "O que o IEEE está desenvolvendo"
+        },
+        {
+          "text": "Quais os projetos que vocês desenvolvem?"
+        },
+        {
+          "text": "Quais projetos atuais ?"
+        },
+        {
+          "text": "Quais projetos vocês estão fazendo?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ComoEntroSlack",
+      "examples": [
+        {
+          "text": "Como entro no grupo do slack?"
+        },
+        {
+          "text": "Qual o link do manual do slack?"
+        },
+        {
+          "text": "Como entrar no workspace do slack?"
+        },
+        {
+          "text": "o que precisa fazer pra entrar no slack?"
+        },
+        {
+          "text": "como entra no slack?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "naoSouDaFacs",
+      "examples": [
+        {
+          "text": "Não sou da universidade salvador, posso ser do IEEE?"
+        },
+        {
+          "text": "Não sou da Unifacs, posso entrar ?"
+        },
+        {
+          "text": "não estudo na facs, mas quero participar da equipe de vcs"
+        },
+        {
+          "text": "Não estudo na unifacs, posso ser do ieee"
+        },
+        {
+          "text": "Não sou aluno, mas queria ser do IEEE usb"
+        },
+        {
+          "text": "Não sou aluno da UNIFACS. Posso participar do IEEE?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "endereço",
+      "examples": [
+        {
+          "text": "Qual o endereço?"
+        },
+        {
+          "text": "Fica na Unifacs?"
+        },
+        {
+          "text": "Qual a localização do ieee?"
+        },
+        {
+          "text": "Onde fica localizado ?"
+        },
+        {
+          "text": "Onde fica o ieee?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "o_que_é",
+      "examples": [
+        {
+          "text": "i3e"
+        },
+        {
+          "text": "Qual a meta do IEEE?"
+        },
+        {
+          "text": "Quando surgiu o ieee?"
+        },
+        {
+          "text": "O que significa o IEEE?"
+        },
+        {
+          "text": "Como  funciona o IEEE?"
+        },
+        {
+          "text": "O que é o IEEE?"
+        },
+        {
+          "text": "tudo bem sim. queria saber o que é ieee"
+        },
+        {
+          "text": "Quanfo foi criado"
+        }
+      ],
+      "description": "O que é o IEEE?"
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "O que você mais gosta de fazer?"
+        },
+        {
+          "text": "Você pode responder uma pergunta frequente sobre o agente?"
+        },
+        {
+          "text": "Você pode resolver um caso jurídico se eu lhe der os fatos?"
+        },
+        {
+          "text": "Você fornece ajuda geral? Eu não sei o que eu posso te perguntar"
+        },
+        {
+          "text": "Tom pode listar quais áreas você pode fornecer ajuda?"
+        },
+        {
+          "text": "Quero saber com que você pode me ajudar./Quero saber com que coisas você pode me ajudar."
+        },
+        {
+          "text": "Qual ajuda você pode fornecer?"
+        },
+        {
+          "text": "Quais são as diferentes coisas com que você pode me ajudar, e para que eu preciso contatar um representante humano ..."
+        },
+        {
+          "text": "Preciso de ajuda geral sobre o agente virtual"
+        },
+        {
+          "text": "Posso verificar quais opções estão disponíveis com o agente?"
+        },
+        {
+          "text": "O que você pode fazer para me ajudar"
+        },
+        {
+          "text": "Oi Tom. Que tipo de coisas você pode fazer por mim?"
+        },
+        {
+          "text": "Oi Tom, quais tipos de coisas você pode me ajudar com o telefone?"
+        },
+        {
+          "text": "Eu preciso de ajuda, alguém pode me ajudar?"
+        },
+        {
+          "text": "Eu gostaria de saber como você pode me ajudar"
+        },
+        {
+          "text": "Eu estou tendo alguns problemas e gostaria de alguma informação sobre como obter alguma ajuda"
+        },
+        {
+          "text": "Continue esperando por favor"
+        },
+        {
+          "text": "Quem pode me ajudar a realizar meu pedido."
+        },
+        {
+          "text": "Ajude-me a ler o medidor e registrar o uso"
+        }
+      ],
+      "description": "Solicite recursos de robô."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Ok deixe-me tentar outra vez. Eu estou tentando falar com um ser humano para resolver diversos problemas faz tempão e dado que o meu telefone bloqueado eu preciso falar diretamente com alguém que entende a conta e pode consertar isso"
+        },
+        {
+          "text": "Você pode me conectar com uma pessoa real?"
+        },
+        {
+          "text": "Quero falar com alguém de outra área."
+        },
+        {
+          "text": "Eu quero tentar o seu agente virtual."
+        },
+        {
+          "text": "Você pode por favor me transferir para alguém que possa me ajudar, eu mandei um e-mail para você e você não leu direito e simplesmente saiu."
+        },
+        {
+          "text": "Você pode me enviar um número de telefone para falar com um representante de vendas?"
+        },
+        {
+          "text": "Preciso contatar a um atendente"
+        },
+        {
+          "text": "Posso ter informações de contato para falar com um agente ao vivo."
+        },
+        {
+          "text": "Posso falar com um agente sobre minha conta"
+        },
+        {
+          "text": "Por favor, você pode entrar em contato comigo com um agente humano?"
+        },
+        {
+          "text": "Por favor pode me conectar com a Vaishali K? Minha conversação foi desconectada"
+        },
+        {
+          "text": "Por favor me conectar a um agente humano que é fluente em inglês."
+        },
+        {
+          "text": "Oi Tom. Eu queria saber se você poderia me direconionar/conectar para um agente humano para que eu possa completar meu pedido?"
+        },
+        {
+          "text": "Isso é muito frustrante, eu quero falar com uma pessoa de verdade real."
+        },
+        {
+          "text": "Existe alguém com quem eu posso realmente falar de verdade?"
+        },
+        {
+          "text": "Eu vou falar com um agente/ Eu vou falar com um agente de suporte."
+        },
+        {
+          "text": "Eu quero contatar um agente/Eu quero entrar em contato com um agente"
+        },
+        {
+          "text": "Eu preciso falar com um representante. Como posso fazer isso?"
+        },
+        {
+          "text": "Bem agora eu gostaria de falar com um agente sobre algumas cobranças"
+        },
+        {
+          "text": "Pode me provar que é um representante?"
+        }
+      ],
+      "description": "Solicite um agente humano."
+    },
+    {
+      "intent": "OqIEEEagrega",
+      "examples": [
+        {
+          "text": "O que o IEEE USB agrega?"
+        },
+        {
+          "text": "O que o IEEE pode agregar pra mim?"
+        },
+        {
+          "text": "O que vcs podem acrescentar para meu curriculo?"
+        },
+        {
+          "text": "O que vocÊs me ajudaram a desenvolver?"
+        },
+        {
+          "text": "o que irei ganhar fazendo parte do grupo"
+        },
+        {
+          "text": "O que ganho entrando no IEEE?"
+        },
+        {
+          "text": "O que Vocês irão me ajudar?"
+        }
+      ],
+      "description": "O que o IEEE agrega"
+    },
+    {
+      "intent": "Taxafiliar",
+      "examples": [
+        {
+          "text": "Para Ser voluntario eu pago"
+        },
+        {
+          "text": "Existe alguma taxa para se afiliar?"
+        },
+        {
+          "text": "tenho que pagar algo pra entrar?"
+        },
+        {
+          "text": "Preciso mesmo pagar para entrar no IEEE?"
+        },
+        {
+          "text": "Existe alguma taxa para se ao IEEE UNIFACS Student Branch?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "EngProduçãoTEMS",
+      "examples": [
+        {
+          "text": "o que e o TEMS"
+        },
+        {
+          "text": "Technology and Engineering Management Society"
+        },
+        {
+          "text": "CApitulo para engenharia de produção"
+        },
+        {
+          "text": "Engenharia de produção"
+        },
+        {
+          "text": "O que o ieee tem a oferecer para engenharia da produção"
+        }
+      ],
+      "description": "O que e o TEMS"
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Você ouviu o que eu disse?"
+        },
+        {
+          "text": "Você ouviu o que perguntei?"
+        },
+        {
+          "text": "Você precisa de mais tempo?"
+        },
+        {
+          "text": "Eu estou de volta."
+        },
+        {
+          "text": "Eu não estou ouvindo, pode falar mais alto?"
+        },
+        {
+          "text": "Fale algo se você estiver aí."
+        },
+        {
+          "text": "Olá. Você está aí?"
+        },
+        {
+          "text": "Onde você está localizada? Não consigo ouvir nada."
+        },
+        {
+          "text": "O que está acontecendo?"
+        },
+        {
+          "text": "Tem alguém aí?"
+        },
+        {
+          "text": "Tem alguém na linha?"
+        },
+        {
+          "text": "Vamos quebrar o silêncio?"
+        },
+        {
+          "text": "Você ainda está aqui comigo?"
+        },
+        {
+          "text": "Você caiu?"
+        },
+        {
+          "text": "Você está aí?"
+        },
+        {
+          "text": "Você foi a algum lugar?"
+        }
+      ],
+      "description": "Peça ao robô para indicar que está disponível."
+    },
+    {
+      "intent": "quemtecriou",
+      "examples": [
+        {
+          "text": "Porque você foi criado?"
+        },
+        {
+          "text": "quem te criou"
+        },
+        {
+          "text": "Como voce fo criado?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "Você me pegou."
+        },
+        {
+          "text": "Não tenho certeza se entendo o que você está dizendo."
+        },
+        {
+          "text": "Não tenho idéia."
+        },
+        {
+          "text": "Não tenho uma solução para isso."
+        },
+        {
+          "text": "Não tenho a menor idéia."
+        },
+        {
+          "text": "Não sei se entendi o que você deseja."
+        },
+        {
+          "text": "Não sei a resposta para isso, me perdoe."
+        },
+        {
+          "text": "Não posso te ajudar, desculpe."
+        },
+        {
+          "text": "Não faço idéia."
+        },
+        {
+          "text": "Me perdoe, mas não tenho uma resposta."
+        },
+        {
+          "text": "Me desculpe, mas não tenho uma resposta para sua pergunta."
+        },
+        {
+          "text": "Eu não tenho idéia, na verdade."
+        },
+        {
+          "text": "Eu não tenho idéia do que você está procurando."
+        },
+        {
+          "text": "Eu não sei o que você deseja."
+        },
+        {
+          "text": "Eu não sei o que te deixará feliz."
+        },
+        {
+          "text": "Eu não sei do que você precisa."
+        },
+        {
+          "text": "Para se honesto, eu não tenho certeza."
+        },
+        {
+          "text": "Eu ainda não estou convencido."
+        },
+        {
+          "text": "Desculpe por não conseguir te ajudar."
+        },
+        {
+          "text": "Desculpe não poder te ajudar com isso."
+        },
+        {
+          "text": "O que você não me contaria?"
+        }
+      ],
+      "description": "Indique não haver uma resposta definitiva a uma pergunta."
+    },
+    {
+      "intent": "horasComplementares",
+      "examples": [
+        {
+          "text": "como faço para ganhar horas complementares ?"
+        },
+        {
+          "text": "Posso ganhar horas complementares?"
+        },
+        {
+          "text": "Como ganho horas complementares?"
+        },
+        {
+          "text": "O ieee vale horário complementar?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Posso_fazer_parteI3E",
+      "examples": [
+        {
+          "text": "como me torno membro do ieee?"
+        },
+        {
+          "text": "gostaria de conhecer o IEEE"
+        },
+        {
+          "text": "Como faço para entrar?"
+        },
+        {
+          "text": "como eu entro no IEEE?"
+        },
+        {
+          "text": "posso ser voluntário?"
+        },
+        {
+          "text": "Como faço parte do IEEE?"
+        },
+        {
+          "text": "Qualquer curso pode fazer parte do IEEE?"
+        },
+        {
+          "text": "Como faço parte?"
+        },
+        {
+          "text": "Calouro pode participar?"
+        },
+        {
+          "text": "o que é preciso para participar do ieee"
+        },
+        {
+          "text": "posso entra no ieee"
+        },
+        {
+          "text": "o que prexiso pra ser do iee"
+        }
+      ],
+      "description": "Fazendo parte do IEEE"
+    },
+    {
+      "intent": "oqehIEEEUSB",
+      "examples": [
+        {
+          "text": "O que é IEEE UNIFACS STUDENT BRANCH?"
+        },
+        {
+          "text": "O que é IEEE USB?"
+        },
+        {
+          "text": "Quando surgiu o IEEE USB?"
+        },
+        {
+          "text": "o que vocês fazem"
+        },
+        {
+          "text": "Quando surgiu UNIFACS STUDENT BRANCH?"
+        },
+        {
+          "text": "Qual foi o início do IEE USB?"
+        },
+        {
+          "text": "Tudo sim eu queria saber quem são vocês?"
+        },
+        {
+          "text": "Quando foi fundado o IEEE UNIFACS STUDENT BRANCH?"
+        }
+      ],
+      "description": "IEEE UNIFACS STUDENT BRANCH"
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Bom trabalho."
+        },
+        {
+          "text": "Afirmativo! É por isso que eu estava procurando."
+        },
+        {
+          "text": "Com certeza!"
+        },
+        {
+          "text": "Com certeza. Estou empolgado com isso."
+        },
+        {
+          "text": "É disso que preciso."
+        },
+        {
+          "text": "Essa é a resposta apropriada."
+        },
+        {
+          "text": "Essa é a resposta certa."
+        },
+        {
+          "text": "Essa é a resposta pela qual procurava."
+        },
+        {
+          "text": "Está muito bom."
+        },
+        {
+          "text": "Eu gostei disso."
+        },
+        {
+          "text": "É exatamente disso que preciso."
+        },
+        {
+          "text": "Isso está certo."
+        },
+        {
+          "text": "Muito bem. Vamos fazê-lo."
+        },
+        {
+          "text": "Nós precisamos exatamente disso."
+        },
+        {
+          "text": "Sim, é isso!"
+        },
+        {
+          "text": "Ótimo."
+        },
+        {
+          "text": "Você leu minha mente."
+        },
+        {
+          "text": "Você me entende."
+        },
+        {
+          "text": "Ignore o que eu falei."
+        },
+        {
+          "text": "Genial!"
+        }
+      ],
+      "description": "Confirme que a resposta satisfaz uma pergunta."
+    },
+    {
+      "intent": "IEEEmissao",
+      "examples": [
+        {
+          "text": "Qual a missão do IEEE?"
+        },
+        {
+          "text": "Me diga a missão do IEEE"
+        },
+        {
+          "text": "Qual a missão do IEEE USB?"
+        },
+        {
+          "text": "Qual seria a missão do IEEE UNIFACS STUDENT BRANCH?"
+        }
+      ],
+      "description": "Qual a missão do ieee"
+    },
+    {
+      "intent": "quaigruposEstudo",
+      "examples": [
+        {
+          "text": "quais os grupos de projetos do ieee"
+        },
+        {
+          "text": "Tem alguma área de robótica?"
+        },
+        {
+          "text": "tem alguma area de ia?"
+        },
+        {
+          "text": "Quais areas tem no IEEE?"
+        },
+        {
+          "text": "Tem alguma área de Inteligência artificial?"
+        }
+      ],
+      "description": "Areas do ieee"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Quero encerrar a conversa, obrigado."
+        },
+        {
+          "text": "pare esta sessão agora..Tchau"
+        },
+        {
+          "text": "Ok, isso é tudo que eu preciso para agora."
+        },
+        {
+          "text": "Obrigado por responder todas as minhas perguntas. Tchau"
+        },
+        {
+          "text": "Obrigado pela sua ajuda, mas ainda estou confuso…tchau"
+        },
+        {
+          "text": "Obrigada, tchau!"
+        },
+        {
+          "text": "Muito obrigado pelo seu tempo. Me desculpe, mas eu tenho que ir. Até logo!"
+        },
+        {
+          "text": "Me tire daqui."
+        },
+        {
+          "text": "Falo contigo depois. Tchau"
+        },
+        {
+          "text": "Eu preciso correr porque acabei de notar que estou atrasado para o meu próximo compromisso"
+        },
+        {
+          "text": "Estou indo embora."
+        },
+        {
+          "text": "Estou cansado de digitar agora. Obrigado e adeus"
+        },
+        {
+          "text": "Desculpe ter ocupado tanto do seu tempo. Eu sei que estamos os dois ocupados e acho que tenho que dizer tchau por ora.."
+        },
+        {
+          "text": "Eu estou indo agora. Tenha um bom dia. Tchau"
+        },
+        {
+          "text": "agora não"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "estou satisfeito"
+        },
+        {
+          "text": "nada não"
+        },
+        {
+          "text": "Vou sair agora. Tchau"
+        },
+        {
+          "text": "Você foi de pouca ajuda, por isso não quero falar com você mais, tchau"
+        },
+        {
+          "text": "Vamos dar uma pausa e tentar novamente mais tarde..Tchau"
+        },
+        {
+          "text": "Te desejo o melhor de sorte..Tchau"
+        },
+        {
+          "text": "Com licença, tenho que ir agora"
+        },
+        {
+          "text": "Vejo você mais tarde."
+        },
+        {
+          "text": "Ainda não terminou?"
+        },
+        {
+          "text": "Volto mais tarde."
+        },
+        {
+          "text": "Tudo bem, eu tenho tudo o que eu precisava"
+        }
+      ],
+      "description": "Termine a conversa."
+    },
+    {
+      "intent": "SignificadoSiglas",
+      "examples": [
+        {
+          "text": "O que significa RRR?"
+        },
+        {
+          "text": "O que significa RSR?"
+        },
+        {
+          "text": "O que significa TiSP?"
+        },
+        {
+          "text": "O que significa RNR?"
+        },
+        {
+          "text": "O que significa essa sigla"
+        },
+        {
+          "text": "siglas"
+        },
+        {
+          "text": "O que significa YP?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Preciso de uma pausa."
+        },
+        {
+          "text": "Aguarde."
+        },
+        {
+          "text": "Deixe-me ver."
+        },
+        {
+          "text": "Estamos quase lá."
+        },
+        {
+          "text": "Eu preciso de um minuto."
+        },
+        {
+          "text": "Eu voltarei logo."
+        },
+        {
+          "text": "Já volto."
+        },
+        {
+          "text": "Me dê um minuto, por favor."
+        },
+        {
+          "text": "Me dê um segundo."
+        },
+        {
+          "text": "Pode me esperar, por favor?"
+        },
+        {
+          "text": "Por favor, aguarde."
+        },
+        {
+          "text": "Por favor espere um minuto"
+        },
+        {
+          "text": "Vou sair e já volto."
+        },
+        {
+          "text": "Vou me afastar do teclado e voltar em seguida."
+        },
+        {
+          "text": "Vou dar uma saída rápida."
+        },
+        {
+          "text": "Volto logo."
+        },
+        {
+          "text": "Só um minuto."
+        },
+        {
+          "text": "Saí para uma pausa."
+        },
+        {
+          "text": "Preciso de uma pausa, espere por favor."
+        },
+        {
+          "text": "Por favor aguarde minha volta."
+        }
+      ],
+      "description": "Indique um atraso no fornecimento de dados para o robô."
+    },
+    {
+      "intent": "QuaisEventos",
+      "examples": [
+        {
+          "text": "eventos"
+        },
+        {
+          "text": "calendario"
+        },
+        {
+          "text": "Qual o calendário do IEEE"
+        },
+        {
+          "text": "Quais os próximos eventos do IEEE?"
+        },
+        {
+          "text": "Quais eventos tem o ieee"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NaoFacoEngenhElet",
+      "examples": [
+        {
+          "text": "Eu não faço Engenharia Elétrica posso participar do IEEE?"
+        },
+        {
+          "text": "Eu não faço Engenharia Eletrônica, posso participar do IEEE?"
+        },
+        {
+          "text": "Eu não faço Engenharia  posso participar do IEEE?"
+        },
+        {
+          "text": "Curso Engenharia Quimica, Posso ser do IEEE?"
+        },
+        {
+          "text": "Curso Engenharia Mecânica, Posso ser do IEEE?"
+        },
+        {
+          "text": "Curso Engenharia de produção, Posso fazer parte do IEEE?"
+        },
+        {
+          "text": "Quem não faz engenharia pode participar do IEEE?"
+        },
+        {
+          "text": "Curso Engenharia Petroleo, Posso ser do IEEE?"
+        }
+      ],
+      "description": "Posso participar do IEEE? E quem não faz nem Engenharia?"
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Inicie novamente a partir do início"
+        },
+        {
+          "text": "Eu quero voltar ao topo"
+        },
+        {
+          "text": "Vamos recomeçar do começo."
+        },
+        {
+          "text": "Eu preciso reiniciar."
+        },
+        {
+          "text": "Eu quero ver desde o início."
+        },
+        {
+          "text": "Nós precisamos voltar ao início e começar novamente."
+        },
+        {
+          "text": "Pode repetir a partir do começo?"
+        },
+        {
+          "text": "Como começar novamente?"
+        },
+        {
+          "text": "Como eu posso começar novamente?"
+        },
+        {
+          "text": "De volta ao começo."
+        },
+        {
+          "text": "De volta ao topo."
+        },
+        {
+          "text": "Eu preciso entender desde o começo."
+        },
+        {
+          "text": "Por favor inicie do começo."
+        },
+        {
+          "text": "Refaça-o."
+        },
+        {
+          "text": "Reinicie novamente desde o começo."
+        },
+        {
+          "text": "Tente novamente."
+        },
+        {
+          "text": "Tente uma vez mais."
+        },
+        {
+          "text": "Vamos começar novamente."
+        },
+        {
+          "text": "Vamos reabrir isto novamente."
+        },
+        {
+          "text": "Vamos desistir disso e voltar ao começo."
+        },
+        {
+          "text": "Por favor não faça nada, vamos voltar."
+        },
+        {
+          "text": "Faça o pedido novamente"
+        },
+        {
+          "text": "Vá ao início."
+        },
+        {
+          "text": "Vamos tentar isto de novo desde o começo."
+        },
+        {
+          "text": "Posso, favor, começar do início?"
+        },
+        {
+          "text": "Na verdade, vamos começar novamente."
+        }
+      ],
+      "description": "Reinicie o robô ou fluxo corrente."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "e ai"
+        },
+        {
+          "text": "Boa tarde , você está ai?"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Ei, você está aí?"
+        },
+        {
+          "text": "Olá, pode me ajudar?"
+        },
+        {
+          "text": "bom diaa"
+        },
+        {
+          "text": "oi, Boa tarde"
+        },
+        {
+          "text": "Olá, bom dia!"
+        },
+        {
+          "text": "Olá, Boa noite"
+        },
+        {
+          "text": "Hello"
+        }
+      ],
+      "description": "Cumprimente o robô."
+    },
+    {
+      "intent": "ComoVai",
+      "examples": [
+        {
+          "text": "como esta?"
+        },
+        {
+          "text": "como vc ta"
+        },
+        {
+          "text": "e ai, blz"
+        },
+        {
+          "text": "Boa, noite, como você está?"
+        },
+        {
+          "text": "Bom dia, tudo bem com voce?"
+        },
+        {
+          "text": "Oi, como vai?"
+        },
+        {
+          "text": "Como vai?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "oqehCapitulo",
+      "examples": [
+        {
+          "text": "o que seria capitulo estudantil?"
+        },
+        {
+          "text": "O que é um capítulo técnico estudantil?"
+        },
+        {
+          "text": "Pra que serve o capitulo?"
+        }
+      ],
+      "description": "O que é capitulo estudantil"
+    },
+    {
+      "intent": "IEEEobjetivos",
+      "examples": [
+        {
+          "text": "O que o IEEE USB quer alcançar?"
+        },
+        {
+          "text": "Quais os Objetivos do IEEE?"
+        },
+        {
+          "text": "Quais os Objetivos do IEEE Unifacs Student Branch?"
+        },
+        {
+          "text": "O que Vocês tem como objetivo?"
+        },
+        {
+          "text": "Qual o intuito do IEEE Unifacs Student branch?"
+        }
+      ],
+      "description": "Quais os objetivos IEEE"
+    },
+    {
+      "intent": "bancarMeuProjeto",
+      "examples": [
+        {
+          "text": "IEEE pode financiar meu  projeto?"
+        },
+        {
+          "text": "Tenho uma ideia de um projeto, o IEEE pode pagar?"
+        },
+        {
+          "text": "Tenho um projeto em mente, o IEEE pode arcar com os custos?"
+        },
+        {
+          "text": "oi todo bem"
+        },
+        {
+          "text": "Ieee pode bancar meu  projeto?"
+        },
+        {
+          "text": "Como o IEEE pode bancar meu projeto?"
+        },
+        {
+          "text": "De qual maneira o IEEE pode bancar meu projeto"
+        }
+      ],
+      "description": "Ieee pode bancar meu  projeto?"
+    },
+    {
+      "intent": "oqpossodesenvolver",
+      "examples": [
+        {
+          "text": "posso propor um porjeto"
+        },
+        {
+          "text": "Como posso desenvolver uma atividade pelo IEEE?"
+        },
+        {
+          "text": "Posso fazer um projeto pelo ieee?"
+        },
+        {
+          "text": "posso fazer um projeto pelo ramo"
+        },
+        {
+          "text": "posso fazer um projeto filiado ao ieee?"
+        },
+        {
+          "text": "posso desenvolver atividades pelo IEEE?"
+        },
+        {
+          "text": "o que eu poderia fazer no ieee"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "quaisPrincipaisConquistas",
+      "examples": [
+        {
+          "text": "Quais as principais conquistas?"
+        },
+        {
+          "text": "Quais os principais prêmios?"
+        },
+        {
+          "text": "O que vocês já ganharam?"
+        },
+        {
+          "text": "Já ganharam algum prêmio?"
+        },
+        {
+          "text": "Me amostre os seus prêmios"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "Suas informações estão confusas."
+        },
+        {
+          "text": "Preciso que você repita a informação."
+        },
+        {
+          "text": "Pode tentar dizê-lo com mais clareza, por favor?"
+        },
+        {
+          "text": "O que você quer dizer com isso?"
+        },
+        {
+          "text": "O que você me deu não é exatamente o que estou procurando."
+        },
+        {
+          "text": "Me desculpe, uma vez mais."
+        },
+        {
+          "text": "Você pode repetir, por favor?"
+        },
+        {
+          "text": "Diga isso novamente, por favor. Eu não ouvi."
+        },
+        {
+          "text": "Eu perdi a última parte. Poderia repetir?"
+        },
+        {
+          "text": "Eu não entendi."
+        },
+        {
+          "text": "Eu não entendi bem o que você me disse."
+        },
+        {
+          "text": "Sobre o que você está falando?"
+        },
+        {
+          "text": "Você não foi claro."
+        },
+        {
+          "text": "Você não entendeu o que eu perguntei."
+        },
+        {
+          "text": "Você não entendeu o que eu disse."
+        },
+        {
+          "text": "Eu preciso de mais informações."
+        },
+        {
+          "text": "Desculpe! Poderia repetir mais uma vez?"
+        },
+        {
+          "text": "Como é?"
+        },
+        {
+          "text": "A sua informação não está clara."
+        },
+        {
+          "text": "Acho que eu não fui claro."
+        }
+      ],
+      "description": "Repita ou esclareça a última declaração."
+    },
+    {
+      "intent": "rede_social",
+      "examples": [
+        {
+          "text": "como posso falar diretamente com alguém do ieee?"
+        },
+        {
+          "text": "redes sociais"
+        },
+        {
+          "text": "Vocês tem alguma rede social?"
+        },
+        {
+          "text": "tem instagram?"
+        },
+        {
+          "text": "tem facebook?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Processo_Seletivo",
+      "examples": [
+        {
+          "text": "Quando é o processo seletivo?"
+        },
+        {
+          "text": "Vocês tem processos seletivos?"
+        },
+        {
+          "text": "posso participar do processo seletivo?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Deixe para lá."
+        },
+        {
+          "text": "Vamos voltar para o que eu pedi originalmente."
+        },
+        {
+          "text": "Vamos voltar para o que eu disse originalmente."
+        },
+        {
+          "text": "Vamos para o próximo passo."
+        },
+        {
+          "text": "Vamos fazê-lo novamente!"
+        },
+        {
+          "text": "Vamos continuar do ponto anterior."
+        },
+        {
+          "text": "Podemos fazê-lo novamente?"
+        },
+        {
+          "text": "Na verdade, retiro o que disse."
+        },
+        {
+          "text": "Eu percebi que não era isso o que eu queria."
+        },
+        {
+          "text": "Eu não queria fazer isso, na verdade, vamos voltar."
+        },
+        {
+          "text": "Eu mudei de idéia."
+        },
+        {
+          "text": "Esqueça isso, vamos tentar outra coisa."
+        },
+        {
+          "text": "Espere! Vamos voltar alguns passos atrás e recomeçar."
+        },
+        {
+          "text": "Espere! Eu acho que quero fazer diferente."
+        },
+        {
+          "text": "Desconsidere meu último pedido."
+        }
+      ],
+      "description": "Peça ao robô para voltar um passo atrás."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Você fala Francês?"
+        },
+        {
+          "text": "Me diga três coisas sobre você."
+        },
+        {
+          "text": "Quero entender como você trabalha."
+        },
+        {
+          "text": "Quero o documento de requisitos do sistema para esse agente."
+        },
+        {
+          "text": "Você sabe quem você é?"
+        },
+        {
+          "text": "Estou procurando uma solução para melhorar o meu engajamento com o cliente usando este agente virtual."
+        },
+        {
+          "text": "Este agente foi construído usando processamento de linguagem natural?"
+        },
+        {
+          "text": "Como você se descreve?"
+        },
+        {
+          "text": "Você tem um nome?"
+        },
+        {
+          "text": "Eu preciso da informação sobre o preço do Watson."
+        },
+        {
+          "text": "Há quanto tempo você tem desempenhado essa função?"
+        },
+        {
+          "text": "Quais são os seus apelidos?"
+        },
+        {
+          "text": "Qual a sua idade?"
+        },
+        {
+          "text": "Quero configurar saudações aqui."
+        }
+      ],
+      "description": "Solicite atributos pessoais genéricos."
+    },
+    {
+      "intent": "valeEstagio",
+      "examples": [
+        {
+          "text": "Posso validar a matéria de estágio supervisionado com o IEEE?"
+        },
+        {
+          "text": "Posso usar o IEEE como estágio?"
+        },
+        {
+          "text": "IEEE vale estágio?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Você é uma pessoa real ou um robô?"
+        },
+        {
+          "text": "Você é um humano ou um robô?"
+        },
+        {
+          "text": "Você é um homem ou uma mulher?"
+        },
+        {
+          "text": "Você é real, pelo menos?"
+        },
+        {
+          "text": "Você é real?"
+        },
+        {
+          "text": "Você pode ser honesto comigo?"
+        },
+        {
+          "text": "Você é humano?"
+        },
+        {
+          "text": "Quem é você, realmente?"
+        },
+        {
+          "text": "Quem é você?"
+        },
+        {
+          "text": "Isso é um computador?"
+        },
+        {
+          "text": "Eu estou conversando com o Watson?"
+        },
+        {
+          "text": "Estou conversando com um robô?"
+        },
+        {
+          "text": "Estou conversando com um humano?"
+        },
+        {
+          "text": "Estou conversando com uma pessoa ou com uma IA?"
+        },
+        {
+          "text": "Diga-me, você é humano ou não?"
+        },
+        {
+          "text": "Com quem estou falando?"
+        },
+        {
+          "text": "Como você pode provar que é humano?"
+        },
+        {
+          "text": "Como eu posso conversar com o Watson?"
+        }
+      ],
+      "description": "Pergunte se está falando com um humano ou um robô."
+    },
+    {
+      "intent": "drive",
+      "examples": [
+        {
+          "text": "Você poderia me enviar o modelo de ATA"
+        },
+        {
+          "text": "Me manda o modelo de artigo"
+        },
+        {
+          "text": "Qual o link do drive?"
+        },
+        {
+          "text": "Pode me enviar o link do drive do IEEE?"
+        },
+        {
+          "text": "Quero o link do drive do IEEE"
+        },
+        {
+          "text": "Onde eu encontro os Documentos do IEEE"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "Eu não quero isso."
+        },
+        {
+          "text": "Eu não quis dizer isso."
+        },
+        {
+          "text": "Isso estava errado, tente novamente."
+        },
+        {
+          "text": "Isso não é o que quero dizer."
+        },
+        {
+          "text": "Não estou entendendo."
+        },
+        {
+          "text": "O que você me deu não foi exatamente o que pedi."
+        },
+        {
+          "text": "Isso não estava correto. Esqueçamos."
+        },
+        {
+          "text": "Você não faz idéia."
+        },
+        {
+          "text": "Você não entendeu o que eu pedi."
+        },
+        {
+          "text": "Você não compreendeu o que perguntei."
+        },
+        {
+          "text": "Não é isso."
+        },
+        {
+          "text": "Eu não acho que essa seja a resposta."
+        },
+        {
+          "text": "Eu não disse isso."
+        },
+        {
+          "text": "Eu não entendo o que você está dizendo."
+        },
+        {
+          "text": "Eu não falei sobre isso."
+        },
+        {
+          "text": "Eu não preciso disso."
+        },
+        {
+          "text": "Essa parece ser a resposta errada."
+        },
+        {
+          "text": "Essa não foi a minha intenção."
+        },
+        {
+          "text": "A resposta está incorreta."
+        },
+        {
+          "text": "O que você me deu não é o que eu estava procurando."
+        },
+        {
+          "text": "Você está me entendendo mal."
+        }
+      ],
+      "description": "Indique que a resposta do robô não aborda uma questão."
+    },
+    {
+      "intent": "Como_criar_novo_capitulo",
+      "examples": [
+        {
+          "text": "como fazer um capitulo"
+        },
+        {
+          "text": "como abrir um novo capitulo"
+        },
+        {
+          "text": "como faço um capitulo"
+        },
+        {
+          "text": "que preciso para criar um novo capitulo"
+        },
+        {
+          "text": "Como crio um novo capitulo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Vamos nos divertir!"
+        },
+        {
+          "text": "Você gosta de contar piadas?"
+        },
+        {
+          "text": "Você me entediou."
+        },
+        {
+          "text": "Você pode cantar para mim?"
+        },
+        {
+          "text": "Você pode me contar uma piada?"
+        },
+        {
+          "text": "piada"
+        },
+        {
+          "text": "Você sabe piadas?"
+        },
+        {
+          "text": "Você tem quaisquer jogos?"
+        },
+        {
+          "text": "Você tem senso de humor?"
+        },
+        {
+          "text": "Está se divertindo?"
+        },
+        {
+          "text": "JOKE"
+        },
+        {
+          "text": "Conte outra!"
+        },
+        {
+          "text": "Estou entediado. Entretenha-me!"
+        },
+        {
+          "text": "Estou entediado."
+        },
+        {
+          "text": "Me conte mais uma."
+        },
+        {
+          "text": "Eu não sou tedioso, você é."
+        },
+        {
+          "text": "O que você faz para se divertir?"
+        },
+        {
+          "text": "Porque você é enfadonho?"
+        },
+        {
+          "text": "Qual a sua piada favorita?"
+        },
+        {
+          "text": "Surpreenda-me com algo hilariante."
+        }
+      ],
+      "description": "Peça uma piada."
+    },
+    {
+      "intent": "Calendario",
+      "examples": [
+        {
+          "text": "Janeiro"
+        },
+        {
+          "text": "Julhio"
+        },
+        {
+          "text": "Agosto"
+        },
+        {
+          "text": "novembro"
+        },
+        {
+          "text": "desembro"
+        },
+        {
+          "text": "octubro"
+        },
+        {
+          "text": "setembro"
+        },
+        {
+          "text": "IEEEDay"
+        },
+        {
+          "text": "Fevereiro"
+        },
+        {
+          "text": "Março"
+        },
+        {
+          "text": "Mayo"
+        },
+        {
+          "text": "Abril"
+        },
+        {
+          "text": "Junho"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "EngMecanicaVTS",
+      "examples": [
+        {
+          "text": "O que e Vehicular Technology Society"
+        },
+        {
+          "text": "Mecânica"
+        },
+        {
+          "text": "Capitulo para Mecânica"
+        },
+        {
+          "text": "Sou de mecânica o que o IEEE tem para me oferecer"
+        },
+        {
+          "text": "O que e o VTS"
+        }
+      ],
+      "description": "O que o VTS"
+    },
+    {
+      "intent": "DifMembroVolunt",
+      "examples": [
+        {
+          "text": "o que é membresia"
+        },
+        {
+          "text": "Diz ai o que é membro"
+        },
+        {
+          "text": "Qual a diferença entre o membro e voluntário?"
+        },
+        {
+          "text": "o que é voluntário?"
+        },
+        {
+          "text": "O que é membro?"
+        },
+        {
+          "text": "por que posso ser voluntario sem ser membro?"
+        }
+      ],
+      "description": "Diferença membro e voluntario"
+    },
+    {
+      "intent": "EngComputaçãoCS",
+      "examples": [
+        {
+          "text": "O que e o CS"
+        },
+        {
+          "text": "O que e Computer Society"
+        },
+        {
+          "text": "Computer Society"
+        },
+        {
+          "text": "CS"
+        },
+        {
+          "text": "Sou de computação o que o IEEE tem para mim"
+        },
+        {
+          "text": "Computação"
+        },
+        {
+          "text": "O que o IEEE tem para computação"
+        }
+      ],
+      "description": "O que e o CS"
+    },
+    {
+      "intent": "EngQuimicaIAS",
+      "examples": [
+        {
+          "text": "Engenharia química"
+        },
+        {
+          "text": "IAS"
+        },
+        {
+          "text": "O que e Industry Applications Society"
+        },
+        {
+          "text": "IEEE tem algo para quimica?"
+        },
+        {
+          "text": "Sou de quimica"
+        },
+        {
+          "text": "Sou de eng química o que eu posso fazer no IEEE?"
+        },
+        {
+          "text": "O que é o IAS?"
+        }
+      ],
+      "description": "O que e o IAS"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Você é uma piada?"
+        },
+        {
+          "text": "Porra, como posso falar com uma pessoa real?"
+        },
+        {
+          "text": "Seja bom uma vez na vida."
+        },
+        {
+          "text": "Sua mãe."
+        },
+        {
+          "text": "Tchau, vagabunda."
+        },
+        {
+          "text": "Todo mundo te odeia."
+        },
+        {
+          "text": "Uma experiência horrível, com certeza!"
+        },
+        {
+          "text": "Você é burro."
+        },
+        {
+          "text": "Você é espertinho?"
+        },
+        {
+          "text": "Você está fora de si?"
+        },
+        {
+          "text": "Você não vale nada."
+        },
+        {
+          "text": "Você é ruim mesmo?"
+        },
+        {
+          "text": "Vá para a puta que pariu!"
+        },
+        {
+          "text": "Vá para o inferno!"
+        },
+        {
+          "text": "Vá se foder!"
+        },
+        {
+          "text": "Você é chato?"
+        },
+        {
+          "text": "Você está me entediando."
+        },
+        {
+          "text": "Por que você é retardado?"
+        }
+      ],
+      "description": "Expresse feedback desfavorável."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Este é um site de bate-papo confiável?"
+        },
+        {
+          "text": "Como impedir o acesso não autorizado à minha conta?"
+        },
+        {
+          "text": "Como eu posso saber que essa conversa não é um golpe?"
+        },
+        {
+          "text": "As informações do cartão de crédito são criptografadas e mantidas seguras?"
+        },
+        {
+          "text": "Gostaríamos de apresentar uma solicitação de seguro para o aquecedor de fumaça"
+        },
+        {
+          "text": "Como posso obter informações de perda?"
+        },
+        {
+          "text": "O que você faz pela segurança de seus clientes?"
+        },
+        {
+          "text": "Onde posso encontrar seu certificado de segurança?"
+        },
+        {
+          "text": "Nossa comunicação é privada?"
+        },
+        {
+          "text": "Minha informação de pagamento pessoal é mantida de forma segura?"
+        },
+        {
+          "text": "Eu preciso de uma garantia."
+        },
+        {
+          "text": "Eu entrei infomação do meu cartão em seu site para pagar minha conta - você pode me certificar que esses detalhes são salvos de forma segura?"
+        },
+        {
+          "text": "Esse chat é oficial?"
+        },
+        {
+          "text": "O meu dispositivo está protegido?"
+        },
+        {
+          "text": "Existe um documento de perguntas frequentes para este chat-bot?"
+        },
+        {
+          "text": "Você me ajudaria a manter minhas informações seguras?"
+        },
+        {
+          "text": "Vocês contratam alguma empresa para auxiliar na proteção de dados?"
+        },
+        {
+          "text": "Você pode garantir a privacidade desta conversa?"
+        },
+        {
+          "text": "Você está a salvo de hackers/pirata informáticos?"
+        },
+        {
+          "text": "Usuário quer garantia de que qualquer informação que ele forneça no bate-papo está protegida e segura."
+        },
+        {
+          "text": "Que medidas de segurança são usados para assegurar que esta conversa é segura?"
+        },
+        {
+          "text": "Posso passar informações confidenciais aqui?"
+        },
+        {
+          "text": "Os dados dessa conversa são armazenados com segurança?"
+        }
+      ],
+      "description": "Exprima preocupações sobre a segurança do robô."
+    },
+    {
+      "intent": "Positive",
+      "examples": [
+        {
+          "text": "sim"
+        },
+        {
+          "text": "ele etá muito bem"
+        },
+        {
+          "text": "meu dia está lindo"
+        },
+        {
+          "text": "Estou tendo um maravilhoso dia"
+        },
+        {
+          "text": "Estou tendo um ótimo dia"
+        },
+        {
+          "text": "Estou ótimo!"
+        },
+        {
+          "text": "otimo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "entrarEmContato",
+      "examples": [
+        {
+          "text": "Qual email de vocês?"
+        },
+        {
+          "text": "Qual o contato do IEEE?"
+        },
+        {
+          "text": "Como consigo falar com alguém do IEEE?"
+        },
+        {
+          "text": "Quero entrar em contato com o IEEE"
+        },
+        {
+          "text": "Quero falar com alguem do IEEE"
+        },
+        {
+          "text": "Como Posso entrar em contato com o IEEE?"
+        },
+        {
+          "text": "Como falo com o IEEE"
+        },
+        {
+          "text": "Qual email para duvidas?"
+        }
+      ],
+      "description": "Como posso entrar em contato?"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Capitulos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "RAS",
+          "synonyms": [
+            "IEEE Robotics & Automation Society"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PES",
+          "synonyms": [
+            "Power & Energy Society"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WIE",
+          "synonyms": [
+            "Women in Engineering"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "VTS",
+          "synonyms": [
+            "Vehicular Technology Society"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS",
+          "synonyms": [
+            "Computer Society"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "IAS",
+          "synonyms": [
+            "Industry Applications Society"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "grupos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Recicla",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "E-brains",
+          "synonyms": [
+            "IA",
+            "Inteligência Artificial",
+            "ebrains"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CodeGym",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RASduino",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "GEFRE",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "projetos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Braço Robótico",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Projetos passados",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ChatBot",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Recicla",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Placa fotovoltaica",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lifeBox",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "projetos atuais",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "siglas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "RSR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RNR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RRR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "YP",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TISP",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "pt-br",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "3a45c6af-538f-40ca-baef-92b343ef329f",
+  "description": "chatbot",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Respoat negativa",
+      "output": {
+        "text": {
+          "values": [
+            "E a vida é feita por muitas fases ... as boas, as ruins ... as que vencemos, as que perdemos ... as bonitas, as realistas ... um dia todas elas terminam, e o mais importante é guardarmos o que foi bom, esquecermos o que não foi, e aprendermos com cada uma delas. Viva sempre aprendendo!!!👊👊👊🙌   Agora, você tem alguma dúvida sobre o IEEE que eu poderia estar esclarecendo?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1569268560561",
+      "conditions": "#Negative",
+      "dialog_node": "node_9_1569268810040",
+      "previous_sibling": "node_8_1569268630267"
+    },
+    {
+      "type": "standard",
+      "title": "Resposta positiva",
+      "output": {
+        "text": {
+          "values": [
+            "Que maravilhoso! 🤗   Agora, Como eu posso te ajudar em relação ao IEEE, tem alguma dúvida? 😁"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1569268560561",
+      "conditions": "#Positive",
+      "dialog_node": "node_8_1569268630267"
+    },
+    {
+      "type": "standard",
+      "parent": "node_8_1569268630267",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1568231461124"
+      },
+      "dialog_node": "node_9_1569268859884"
+    },
+    {
+      "type": "standard",
+      "title": "Projetos Atuais",
+      "output": {
+        "generic": [
+          {
+            "title": "Esses são nossos projetos atuais:",
+            "options": [
+              {
+                "label": "ChatBot",
+                "value": {
+                  "input": {
+                    "text": "@projetos:ChatBot"
+                  }
+                }
+              },
+              {
+                "label": "Recicla",
+                "value": {
+                  "input": {
+                    "text": "@projetos:Recicla"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1568565450868",
+      "conditions": "@projetos:(projetos atuais)",
+      "dialog_node": "node_6_1568566801941",
+      "previous_sibling": "node_8_1568566141008"
+    },
+    {
+      "type": "standard",
+      "title": "Projetos passados ",
+      "output": {
+        "generic": [
+          {
+            "title": "Esses são nossos projetos passados:",
+            "options": [
+              {
+                "label": "Braço Robótico",
+                "value": {
+                  "input": {
+                    "text": "@projetos:(Braço Robótico)"
+                  }
+                }
+              },
+              {
+                "label": "LifeBOX",
+                "value": {
+                  "input": {
+                    "text": "@projetos:lifeBox"
+                  }
+                }
+              },
+              {
+                "label": "Placa Fotovoltaica",
+                "value": {
+                  "input": {
+                    "text": "@projetos:(Placa fotovoltaica)"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1568565450868",
+      "conditions": "@projetos:(Projetos passados)",
+      "dialog_node": "node_8_1568566141008"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://site.ieee.org/sb-unifacs/files/2017/03/lifebox-300x297.jpg",
+            "description": "LifeBOX é um dispositivo que efetua detecção de variáveis químicas e físicas e associa os dados para a prevenção de doenças causadas pela poluição atmosférica em ambientes internos ou externos.",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1568566141008",
+      "conditions": "@projetos:lifeBox",
+      "dialog_node": "node_3_1571603025833",
+      "previous_sibling": "node_2_1571603020231"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Grupo de Estudos de Fontes Renováveis de Energia da PES UNIFACS decidiu, recentemente, aplicar os conhecimentos adquiridos em um projeto de construção de uma telha fotovoltaica. O grupo se dividiu em duas equipes menores, sendo uma tática e outra técnica. A orientação do Projeto está com o Professor Eudemário Santana, da Universidade Salvador."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1568566141008",
+      "conditions": "@projetos:(Placa fotovoltaica)",
+      "dialog_node": "node_10_1571603030056",
+      "previous_sibling": "node_3_1571603025833"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://site.ieee.org/sb-unifacs/files/2018/06/WhatsApp-Image-2018-06-24-at-20.48.50-203x300.jpeg",
+            "description": "Os participantes do RASduino, grupo do RAS UNIFACS dedicado ao estudo do microcontrolador Arduino decidiram aplicar o conhecimento adquirido em um projeto prático: a construção de um Braço Robótico totalmente Open Source.",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1568566141008",
+      "conditions": "@projetos:(Braço Robótico)",
+      "dialog_node": "node_2_1571603020231"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "<? $result_variable ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1568263936640",
+      "conditions": "true",
+      "dialog_node": "node_9_1568264115824"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Você tem alguma dúvida sobre o IEEE que eu poderia estar esclarecendo?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1569268810040",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "dialog_node": "node_3_1569269764776"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Projeto no qual se desenvolveram caixas que servirão para alunos e frequentadores da Universidade Salvador deixarem materiais como pilhas, controles, e outros equipamentos e componentes eletrônicos para um descarte mais correto.\nO projeto, além de coletar material que poderia ser descartado incorretamente, ainda fará uso de peças e componentes que estejam em bom estado, para futuras construções no IEEE UNIFACS."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1568566801941",
+      "conditions": "@projetos:Recicla",
+      "dialog_node": "node_7_1571603081376",
+      "previous_sibling": "node_10_1571603071707"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O E-brains está desenvolvendo esse chatbot que servirá para facilitar a vida dos membros, voluntários e de outros estudantes que estiverem curiosos para saber sobre o IEEE."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1568566801941",
+      "conditions": "@projetos:ChatBot",
+      "dialog_node": "node_10_1571603071707"
+    },
+    {
+      "type": "standard",
+      "title": "IEEE USB Jump",
+      "parent": "node_8_1568231461124",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1568519190306"
+      },
+      "conditions": "@areas:(IEEE USB)",
+      "dialog_node": "node_2_1568525883789"
+    },
+    {
+      "type": "standard",
+      "title": "WIE",
+      "parent": "node_7_1568519672338",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1568520616386"
+      },
+      "conditions": "@Capitulos:WIE",
+      "dialog_node": "node_3_1568523843039",
+      "previous_sibling": "node_5_1568523811667"
+    },
+    {
+      "type": "standard",
+      "title": "RAS",
+      "parent": "node_7_1568519672338",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1568520591025"
+      },
+      "conditions": "@Capitulos:RAS",
+      "dialog_node": "node_5_1568523811667",
+      "previous_sibling": "node_2_1568523783121"
+    },
+    {
+      "type": "standard",
+      "title": "PES",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1568519672338",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1568520527835"
+      },
+      "conditions": "@Capitulos:PES",
+      "dialog_node": "node_2_1568523783121"
+    },
+    {
+      "type": "standard",
+      "title": "Recicla",
+      "parent": "node_3_1568231227093",
+      "conditions": "@grupos:Recicla",
+      "dialog_node": "node_8_1568529568475",
+      "previous_sibling": "node_7_1568529677641"
+    },
+    {
+      "type": "standard",
+      "title": "E-brains",
+      "output": {
+        "text": {
+          "values": [
+            "Grupo de estudo de Inteligência Artificial, no qual tem como objetivo propagar conhecimento através do desenvolvimento de projetos em níveis diversos de dificuldade, priorizando a prática aplicada em problemas reais.",
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1568231227093",
+      "conditions": "@grupos:E-brains",
+      "dialog_node": "node_1_1568259624401",
+      "previous_sibling": "node_8_1568529568475"
+    },
+    {
+      "type": "standard",
+      "title": "RAsduino",
+      "output": {
+        "text": {
+          "values": [
+            "O RAS é top"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1568231227093",
+      "conditions": "@grupos:RASduino",
+      "dialog_node": "node_10_1568259548274",
+      "previous_sibling": "node_2_1568529699910"
+    },
+    {
+      "type": "standard",
+      "title": "GEFRE",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Grupo de Estudos em Fontes Renováveis de Energia. O grupo, como o nome evidencia se dedica a estudar alternativas renováveis de energia, um assunto sempre em pauta nas discussões sobre sustentabilidade e produção energética.\n\nO grupo se dedica aos estudos, inicialmente, das energias eólica e solar, muito utilizadas no cenário brasileiro, especialmente no nordeste do país."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1568231227093",
+      "conditions": "@grupos:GEFRE",
+      "dialog_node": "node_7_1568529677641",
+      "previous_sibling": "node_10_1568259548274"
+    },
+    {
+      "type": "standard",
+      "title": "CodeGym",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Espaço acadêmico de aluno para aluno, aberto para diálogo, interação e desenvolvimento pessoal dentro da área de programação. Temos como objetivo:<br>\n\n• Ampliar o conhecimento sobre programação em qualquer linguagem que seja do interesse do membro.<br>\n• Aprender novas linguagens, traçar metas de aprendizado e compartilhar o seu conhecimento.<br>\n• Introdução à competição do IEEE Extreme e formar uma equipe participante."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1568231227093",
+      "conditions": "@grupos:CodeGym",
+      "dialog_node": "node_2_1568529699910"
+    },
+    {
+      "type": "standard",
+      "title": "21 - O IEEE pode custear meu projeto ?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O IEEE Student Enterprise Award fornece ajuda financeira até U$ 1500 aos membros dos ramos estudantis que procuram implementar uma ideia para um projeto. Ele permite que os membros estudantis do IEEE trabalhem com outros em um projeto de engenharia, ao mesmo tempo que fortalecem os programas do Ramo Estudantil. Os tópicos podem ser de natureza técnica ou não técnica, a partir de pesquisas sobre tecnologia de ponta, programas humanitários e de serviços comunitários."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#bancarMeuProjeto",
+      "dialog_node": "node_9_1568523436715",
+      "previous_sibling": "node_7_1568523416215"
+    },
+    {
+      "type": "standard",
+      "title": "7 - O que é preciso para participar do IEEE ?",
+      "output": {
+        "text": {
+          "values": [
+            "Para fazer parte do IEEE você pode ser estudante de qualquer curso de qualquer semestre. Você pode entrar como voluntário ou como membro fixo. Basta ter vontade de aprender e de se desenvolver enquanto profissional.                                                                 \nPara saber mais procure diretamente um membro do IEEE, ou acesse a nossa página no <a href=\"https://www.instagram.com/ieeeunifacs/?hl=pt-br\">Instagram</a> e manda um direct! 🤫😉"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#Posso_fazer_parteI3E",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1568231507445",
+      "previous_sibling": "node_2_1568258605613"
+    },
+    {
+      "type": "standard",
+      "title": "17 - Onde fica o IEEE USB?",
+      "output": {
+        "text": {
+          "values": [
+            "O IEEE Unifacs fica localizado na <a href=\"https://goo.gl/maps/sLfoXuoEXDXciPur9\n\">Rua Vieira Lopes, 27 - Rio Vermelho</a>, no anexo do PA7. 🏫"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#endereço",
+      "dialog_node": "node_7_1568232068487",
+      "previous_sibling": "node_4_1568232294004"
+    },
+    {
+      "type": "standard",
+      "title": "14 -Qual a diferença entre membro e voluntário?",
+      "output": {
+        "text": {
+          "values": [
+            "O Ramo é constituído de membros (pessoas filiadas ao IEEE com membresia ativa), e voluntários. O membro contribui financeiramente com o IEEE mundial, adquirindo membresia, e devido a isso, obtêm uma série de benefícios que podem ser encontrados no site do IEEE mundial. O voluntario é toda pessoa engajada nas atividades desenvolvidas pelo ramo estudantil. No ramo é possível existir membros voluntários ativos ou inativos"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#DifMembroVolunt",
+      "dialog_node": "node_4_1568522687657",
+      "previous_sibling": "node_6_1568522257611"
+    },
+    {
+      "type": "standard",
+      "title": "15 - Qual link do drive do IEEE?",
+      "output": {
+        "text": {
+          "values": [
+            "Esta é a lista de documentos disponíveis:\n\n•\tTermo de compromisso\n•\tCódigo de Ética\n•\tComo realizar Curso, palestra ou oficina\n•\tEstatuto IEEE USB\n•\tFormulário de Alinhamento das informações\n•\tLinks Importantes\n•\tLivreto para divulgação\n\nAcesso Nesse repositório: <a href=\"https://drive.google.com/drive/u/0/folders/1fsu7H5OiXUwuOtEjmsRZuLpwY62RfkbL\">Aqui!</a>\n"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#drive",
+      "dialog_node": "node_8_1568256579877",
+      "previous_sibling": "node_4_1568522687657"
+    },
+    {
+      "type": "standard",
+      "title": "5.3 - WIE",
+      "output": {
+        "text": {
+          "values": [
+            "O IEEE WIE UNIFACS Affinity Group foi aprovado oficialmente pelo IEEE no dia 17 de Junho de 2016 e tem o propósito de unir, estimular e auxiliar as estudantes de Engenharia a concluírem o curso e continuar na área. Através de eventos, minicursos e palestras buscamos fortalecer a postura e os conhecimentos técnicos das estudantes para que estas possam ingressar confiantes no mercado de trabalho e encarar as dificuldades como montanhas a serem escaladas e não destruídas.  \"Motivar e incentivar as estudantes de Engenharia a concluírem a graduação e atuar na área; integrar e fortalecer os laços de amizade entre as mulheres; Promover cursos e eventos que fortaleçam a postura da mulher e consolidem os conhecimentos técnicos.\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": " @Capitulos:WIE",
+      "dialog_node": "node_2_1568520616386",
+      "previous_sibling": "node_4_1568520591025"
+    },
+    {
+      "type": "standard",
+      "title": "6 - O que significa as siglas?",
+      "output": {
+        "text": {
+          "values": [
+            "As siglas são bastante usadas por aqui, e deixam geral confuso. Então para facilitar sua vida, vou deixar aqui o significado de todas elas: 😄<br>\n•\tIEEE – Institute of Electrical and Electronic Engineers (Instituto de Engenheiros Eletricistas e Eletrônicos)<br>\n•\tRAS – Robotics and Automation Society (Sociedade de Robótica e Automação)<br>\n•\tPES - Power & Energy Society (Sociedade de Potência e Energia)<br>\n•\tTISP - Teacher In-Service (Professores em Serviço)<br>\n•\tRSR - Reunião Seccional de Ramos<br>\n•\tRNR – Reunião Nacional de Ramos<br>\n•\tRRR – Reunião Regional de Ramos<br>\n•\tYP - Young Professionals (Jovens Profissionais)<br>\n•\tWIE – Women in Engineering (Mulheres na Engenharia)<br>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#SignificadoSiglas",
+      "dialog_node": "node_2_1568258605613",
+      "previous_sibling": "node_9_1574731578898"
+    },
+    {
+      "type": "standard",
+      "title": "31 - Quem te criou?",
+      "output": {
+        "generic": [
+          {
+            "title": "Eu fui criado pela equipe do E-brains, como o objetivo de ajudar os membros do IEEE USB  e curiosos sobre as dúvidas mais frequentes referentes ao nosso ramo estudantil!",
+            "source": "https://media.giphy.com/media/61XS37iBats8J3QLwF/giphy.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#quemtecriou",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1574717924225",
+      "previous_sibling": "node_7_1571621752606"
+    },
+    {
+      "type": "standard",
+      "title": "3 - Qual a missão do IEEE USB",
+      "output": {
+        "text": {
+          "values": [
+            "Nossa missão é promover cursos, palestras e eventos que tragam o aluno para sua realidade profissional. Expandindo os horizontes em prol do seu desenvolvimento. Tem por objetivo realizar atividades que colaborem com a formação e o crescimento profissional dos seus membros. 😇"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#IEEEmissao",
+      "dialog_node": "node_10_1568519364262",
+      "previous_sibling": "node_5_1568519190306"
+    },
+    {
+      "type": "standard",
+      "title": "10 - Como entro em contato com o IEEE UNIFACS Student Branch?",
+      "output": {
+        "text": {
+          "values": [
+            "Para entrar em contato com o ramo, você pode enviar um email para  sb.unifacs\\@ieee.org, preencher o formulário no <a href=\" http://sites.ieee.org/sb-unifacs/fale-conosco/\"> Fale Conosco</a>, ou acessar a nossa página no <a href=\"https://www.instagram.com/ieeeunifacs/?hl=pt-br\">Instagram</a> e mandar um direct! 😃"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#entrarEmContato",
+      "dialog_node": "node_3_1568522008699",
+      "previous_sibling": "node_2_1568261280027"
+    },
+    {
+      "type": "standard",
+      "title": "32 - Como criar um capitulo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os passos para a criação de um Capítulo de sucesso em um Ramo Estudantil são os seguintes:\n1. Inscrever ao menos seis (06) membros estudantis no IEEE e na sociedade técnica de\ninteresse.\n2. Inscrever um (01) profissional no IEEE e na sociedade técnica de interesse.\n3. Preencher o Formulário de Criação de Capítulos Técnicos. Um tutorial detalhado para\nrealizar esta tarefa se encontra disponível neste link.\nhttps://www.ieee.org/societies_communities/geo_activities/forms_petitions/forms_petitio\nns_index.html\n4. Ao finalizar, o IEEE Student Services lhe enviará um email confirmando a criação ou\nreativação do capítulo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Como_criar_novo_capitulo",
+      "dialog_node": "node_2_1574820798594",
+      "previous_sibling": "node_4_1574717924225"
+    },
+    {
+      "type": "standard",
+      "title": "General_Positive_Feedback",
+      "output": {
+        "generic": [
+          {
+            "source": "https://media1.tenor.com/images/a29353c4ff3f57e76fee8e9ad460e1c8/tenor.gif?itemid=4614650",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_8_1571609611303",
+      "previous_sibling": "node_10_1569268560561"
+    },
+    {
+      "type": "standard",
+      "title": "5.6 - CS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A IEEE Computer Society é a principal fonte de informação, inspiração e colaboração em ciência da computação e engenharia. Conectando membros em todo o mundo, a Computer Society capacita as pessoas que avançam na tecnologia, fornecendo ferramentas para indivíduos em todas as etapas de suas carreiras profissionais."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#EngComputaçãoCS && @Capitulos:CS",
+      "dialog_node": "node_9_1574731578898",
+      "previous_sibling": "node_7_1574730898847"
+    },
+    {
+      "type": "standard",
+      "title": "18 - Quais os grupos de projetos do IEEE?(NC)",
+      "output": {
+        "generic": [
+          {
+            "title": "Dentro do IEEE USB temos grupos que desenvolvem projetos em diversas áreas. Fique à vontade para selecionar o que mais lhe agrada, e conhecer um pouquinho mais sobre ele ^^",
+            "options": [
+              {
+                "label": "CodeGym (Programação)",
+                "value": {
+                  "input": {
+                    "text": "@grupos:CodeGym"
+                  }
+                }
+              },
+              {
+                "label": "RASduino (Robótica)",
+                "value": {
+                  "input": {
+                    "text": "@grupos:RASduino"
+                  }
+                }
+              },
+              {
+                "label": "E-Brains ( Inteligência Artificial)",
+                "value": {
+                  "input": {
+                    "text": "@grupos:E-brains"
+                  }
+                }
+              },
+              {
+                "label": "GEFRE",
+                "value": {
+                  "input": {
+                    "text": "@grupos:GEFRE"
+                  }
+                }
+              },
+              {
+                "label": "Recicla",
+                "value": {
+                  "input": {
+                    "text": "@grupos:Recicla"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@grupos ||  #quaigruposEstudo",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1568231227093",
+      "previous_sibling": "node_7_1568232068487"
+    },
+    {
+      "type": "standard",
+      "title": "## - Piadas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Um engenheiro eletricista ao passar por um poste começa um diálogo:\n\n- Olá, senhor Poste. Como o senhor passa?\n\nO poste responde:\n\n- Estou mal. Tenho vivido na maior TENSÃO e minha vida está por um FIO.\n\nTentando animar o poste, o engenheiro responde:\n\n- Fique tranquilo, porque isso é só uma FASE."
+              },
+              {
+                "text": "Vão quatro engenheiros no carro, quando este enguiça. Cada engenheiro dá sua sugestão:\n\nEngenheiro mecânico: A caixa de velocidades deve ter quebrado.\n\nEngenheiro químico: Não concordo. O problema está na composição do combustível.\n\nEngenheiro eletrotécnico: Nada disso! É a bateria que está descarregada.\n\nEngenheiro informático: E se nós saíssemos e entrássemos novamente?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Jokes",
+      "dialog_node": "node_8_1574822753428",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "24 - Quais projetos Vocês desenvolvem/ desenvolveram?",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Projetos passados",
+                "value": {
+                  "input": {
+                    "text": "@projetos:(Projetos passados)"
+                  }
+                }
+              },
+              {
+                "label": "Projetos em desenvolvimento",
+                "value": {
+                  "input": {
+                    "text": "@projetos:(projetos atuais)"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#quais_projetos_desenvolvem",
+      "dialog_node": "node_2_1568565450868",
+      "previous_sibling": "node_6_1568565315318"
+    },
+    {
+      "type": "standard",
+      "title": "16 -Quais Redes sociais do IEEE?",
+      "output": {
+        "text": {
+          "values": [
+            "Nossas redes são:<br>    \n•\t<a href=\"https://www.facebook.com/ieeeunifacs/ \">Facebook</a> <br> \n•\t<a href=\"https://www.instagram.com/ieeeunifacs/?hl=pt-br\">Instagram</a>\n"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#rede_social",
+      "dialog_node": "node_4_1568232294004",
+      "previous_sibling": "node_8_1568256579877"
+    },
+    {
+      "type": "standard",
+      "title": "4 - Qual objetivos IEEE USB?",
+      "output": {
+        "text": {
+          "values": [
+            "Nosso objetivo é potencializar a participação dos alunos através de atividades extracurriculares, proporcionando assim aos seus membros:<br>\n\n•\tDesenvolvimento de habilidades tanto na área técnica quanto na área de Gestão de Pessoas.<br>\n•\tCriação de redes de contatos nos âmbitos nacional e internacional.<br>\n•\tOrganizar, desenvolver e participar de palestras, minicursos, projetos, visitas à empresas e viagens, congressos regionais, workshops de treinamento.<br>\n•\tDesenvolvimento de liderança, relacionamento interpessoal e trabalho em equipe.<br>\n•\tDesenvolvimento de projetos sem fins lucrativos com parcerias de empresas e instituições objetivando beneficiar a sociedade acadêmica.<br>\n"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#IEEEobjetivos",
+      "dialog_node": "node_3_1568519483749",
+      "previous_sibling": "node_10_1568519364262"
+    },
+    {
+      "type": "standard",
+      "title": "27 - Tem processo seletivo?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Todo início de semestre iniciamos processos seletivos, porém o estudante interessado em participar de nosso ramo podem nos procurar para que possamos inciar o processo de seleção fora de período."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Processo_Seletivo",
+      "dialog_node": "node_9_1569263970375",
+      "previous_sibling": "node_4_1571605939912"
+    },
+    {
+      "type": "standard",
+      "title": "28 - Posso ganhar horas complementares?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Membros e voluntários ativos do IEEE USB tem direito de ganhar horas complementares, que estarão diretamente atreladas às atividades e projetos desenvolvidos dentro do Ramo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#horasComplementares",
+      "dialog_node": "node_5_1571606732261",
+      "previous_sibling": "node_9_1569263970375"
+    },
+    {
+      "type": "standard",
+      "title": "5 - Como está organizado o IEEE USB",
+      "output": {
+        "generic": [
+          {
+            "title": "O IEEE UNIFACS segue a divisão organizacional do IEEE. Da mesma forma em que há Sociedades técnicas e Grupos, no Ramo, há as representações em capítulos estudantis e grupos de afinidade, que replicam a estrutura de administração e atuação em grupos, projetos, eventos e afins, mas com especialização de temas de interesse e de participantes e público-alvo.                                              Fique a vontade nossas entidades estudantis abaixo:",
+            "options": [
+              {
+                "label": "PES UNIFACS Student Chapter",
+                "value": {
+                  "input": {
+                    "text": "@siglas:PES"
+                  }
+                }
+              },
+              {
+                "label": "RAS UNIFACS Student Chapter",
+                "value": {
+                  "input": {
+                    "text": "@siglas:RAS"
+                  }
+                }
+              },
+              {
+                "label": "WIE UNIFACS Affinity Group",
+                "value": {
+                  "input": {
+                    "text": "@siglas:WIE"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#OrganizacaoIee",
+      "dialog_node": "node_7_1568519672338",
+      "previous_sibling": "node_3_1568519483749"
+    },
+    {
+      "type": "standard",
+      "title": "AskDiscovery",
+      "output": {
+        "generic": []
+      },
+      "actions": [
+        {
+          "name": "matheus.augusto@ieee.org_dev/actions/ebrainsChatbot",
+          "type": "server",
+          "parameters": {
+            "input": "<?input.text?>"
+          },
+          "credentials": "$private.my_creds",
+          "result_variable": "$discovery_output"
+        }
+      ],
+      "context": {
+        "private": {
+          "user": "f6d91a43-7efb-4816-92d0-f45c8c2beac7",
+          "password": "Dw6kXicn7Xd6Ec5z1NGYCel89BgNSI13b72HJ5cDTNSc42NG7bYNLZUOWqTSlRvW"
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1568264115824"
+      },
+      "conditions": "",
+      "dialog_node": "node_9_1568263936640",
+      "previous_sibling": "node_2_1574820798594"
+    },
+    {
+      "type": "standard",
+      "title": "5.5 - VTS ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os campos da Vehicular Technology Society são os aspectos teóricos, experimentais e operacionais da engenharia elétrica e eletrônica em rádio móvel, veículos automotores e transporte terrestre"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#EngMecanicaVTS && @Capitulos:VTS",
+      "dialog_node": "node_7_1574730898847",
+      "previous_sibling": "node_3_1574730227181"
+    },
+    {
+      "type": "standard",
+      "title": "11 - Eu não faço Engenharia Elétrica ou Eletrônica, mesmo assim posso participar do IEEE?",
+      "output": {
+        "text": {
+          "values": [
+            "Não há nenhum impedimento quanto ao curso feito. O IEEE tem este nome devido a sua história inicial, mas a instituição com o passar dos anos se tornou muito abrangente, aceitando estudantes e profissionais de todas as áreas para colaborar com os projetos e crescer junto com a instituição. Existem várias vertentes no IEEE, basta ter força de vontade e participar daquela que mais lhe atrai, propondo projetos e se associando a Capítulos. 👊👊👊😌"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#NaoFacoEngenhElet",
+      "dialog_node": "node_3_1568522073470",
+      "previous_sibling": "node_3_1568522008699"
+    },
+    {
+      "type": "standard",
+      "title": "22 - Quais as principais conquistas?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Essas são nossas principais conquistas:<br><br>\n\n•\tRamo Estudantil Exemplar IEEE RNR & RNYP Campina Grande 2018<br><br>\n\n•\t3º Melhor Site de Ramo da América Latina IEEE R9 Student Branch Web Site Contest 2018<br><br>\n\n•\t3º Melhor App do Mundo (Rafael Solis Melo) IEEE Mobile Application Development Contest 2017<br><br>\n\n•\t1º Melhor Site de Ramo da América Latina IEEE R9 Student Branch Web Site Contest 2017<br><br>\n\n•\t3º Melhor Site de Ramo do Mundo IEEE Global Student Web Site and Social Media Competition 2017<br><br>\n\n•\tCategoria Bronze em Atividades Estudantis (Visita a Itaipu) The Darrel Chong Student Activity Award 2017<br><br>\n\n•\tCategoria Bronze em Atividades Estudantis (TISP Team) The Darrel Chong Student Activity Award 2017<br><br>\n\n•\t3ª Melhor Atividade WIE do Brasil (WIE Day UNIFACS) Concurso Women in Engineering RNR & RNYP 2017<br><br>\n\n•\t2ª Melhor Fotografia do Brasil Concurso de Fotografia RNR & RNYP 2015<br><br>\n\n•\tMelhor Projeto (LifeBOX) IEEE Student Enterprise Award 2015<br><br>\n\n•\tMelhor Banner IEEE Day IEEE Day R9 Contest 2015<br><br>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#quaisPrincipaisConquistas",
+      "dialog_node": "node_3_1568523569934",
+      "previous_sibling": "node_9_1568523436715"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://media1.tenor.com/images/4d510b7f8c6219c44fce281df72b85ab/tenor.gif?itemid=4827315",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_9_1571610844007",
+      "previous_sibling": "node_8_1571609611303"
+    },
+    {
+      "type": "standard",
+      "title": "25 - Como faço a membresia?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para fazer a membresia  é só seguir o passo a passo que é mostrado <a href=\"https://drive.google.com/file/d/0B5r7IFNBQyqQWl82cFpva1lXaXc/view\">neste link</a> 😜"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ComoFazerMembresia",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1568566939568",
+      "previous_sibling": "node_2_1568565450868"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings I",
+      "output": {
+        "text": {
+          "values": [
+            "Oi, tudo bem? Como posso te ajudar? 😃",
+            "E ai, tudo bem? Como posso te ajudar? 😃"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#General_Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1569268442826",
+      "previous_sibling": "node_7_1574730174632"
+    },
+    {
+      "type": "standard",
+      "title": "12 - Não sou aluno da UNIFACS. Posso participar do IEEE?",
+      "output": {
+        "text": {
+          "values": [
+            " Não existe nenhum requisito para participar do IEEE UNIFACS Student Branch. Bastar frequentar as reuniões semanais e participar da atividade desejada. 😌"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#naoSouDaFacs",
+      "dialog_node": "node_8_1568522236110",
+      "previous_sibling": "node_3_1568522073470"
+    },
+    {
+      "type": "standard",
+      "title": "23 - Quais eventos rolam durante o ano?(NC)",
+      "output": {
+        "generic": [
+          {
+            "title": "Através das 39 Sociedades, Conselhos Técnicos e outras entidades do IEEE, existem praticamente eventos todos os dias. Os mais próximos dos que nós do IEEE UNIFACS acompanhamos são:",
+            "options": [
+              {
+                "label": "25 /09 - IEEE PES ZERO HUNGER DAY",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "01/10 - IEEE DAY",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "19/10 - IEEEXtreme",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "24/10 - IEEE Student Branch Regional Meeting - Latin America 2019",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#QuaisEventos",
+      "dialog_node": "node_6_1568565315318",
+      "previous_sibling": "node_3_1568523569934"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A resposta para isso está fora do meu escopo de respostas. Poderia reformular sua pergunta?😕"
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo. 🙄"
+              },
+              {
+                "text": "Eu não entendi o sentido. 🤔"
+              },
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase. ☹️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "actions": [
+        {
+          "name": "matheus.augusto@ieee.org_dev/actions/ebrainsChatbot",
+          "type": "server",
+          "parameters": {
+            "input": "<?input.text?>"
+          },
+          "credentials": "$my_creds",
+          "result_variable": "discovery_output.text"
+        }
+      ],
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_9_1568263936640"
+    },
+    {
+      "type": "standard",
+      "title": "O que é chat bot?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Chatbot é um programa de computador que utiliza inteligência artificial cada vez mais aperfeiçoada para imitar conversas com usuários de várias plataformas e aplicativos, como acontece no Facebook e em sites de e-commerce. Sabe quando você visita o site de uma empresa e uma janela pop-up surge no canto da tela, se colocando à disposição para tirar dúvidas?\n\nEntão, aquilo é um chatbot 😜"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#OqehChatbot",
+      "dialog_node": "node_3_1571598246620",
+      "previous_sibling": "node_9_1571610844007"
+    },
+    {
+      "type": "standard",
+      "title": "1- O que é IEEE",
+      "output": {
+        "generic": [
+          {
+            "title": "O IEEE (Instituto de Engenheiros Eletricistas e Eletrônicos) é uma organização profissional sem fins lucrativos, fundada nos Estados Unidos. Formado em 1963 pela fusão do IRE e do AIEE, é hoje a maior organização profissional do mundo em número de sócios. Sua meta é promover conhecimento no campo da engenharia elétrica, eletrônica e computação.",
+            "options": [
+              {
+                "label": " Clique aqui para saber o que é IEEE UNIFACS STUDENT BRANCH",
+                "value": {
+                  "input": {
+                    "text": "@areas:(IEEE USB)"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#o_que_é",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1568231461124",
+      "previous_sibling": "node_3_1571598246620"
+    },
+    {
+      "type": "standard",
+      "title": "5.2 - RAS",
+      "output": {
+        "text": {
+          "values": [
+            "O IEEE Robotics & Automation Society Universidade Salvador Student Chapter foi aprovado no dia 09 de maio de 2017 oficialmente pelo IEEE. Somos uma representação técnica estudantil da sociedade de Robótica & Automação do IEEE e trabalhamos para fornecer a melhor experiência técnica aos seus membros baseado na missão do IEEE RAS. \"Adquirir conhecimentos em robótica, automação e controle, tendo como principal objetivo a aplicação prática de sistemas e dispositivos relacionados à área, criando e realizando projetos que agregam tanto na formação do aluno quanto no avanço tecnológico da sociedade.\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": " @Capitulos:(RAS)",
+      "dialog_node": "node_4_1568520591025",
+      "previous_sibling": "node_6_1568520527835"
+    },
+    {
+      "type": "standard",
+      "title": "26 - Tem Professores no Ramo?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Ramo conta com, além de Estudantes, Conselheiros, que são Membros Profissionais. No Ramo IEEE UNIFACS, temos como Conselheiros, de Ramo e Capítulos, alguns dos professores da instituição, que incentivam a elaboração das atividades, apoiam o IEEE perante a instituição e garantem a continuidade das atividades."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Quem_faz_parte",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1571605939912",
+      "previous_sibling": "node_10_1568566939568"
+    },
+    {
+      "type": "standard",
+      "title": "30 - Como Crio a conta no slack?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para ter acesso ao nosso Workspace no Slack é só seguir direitinho o passo a passo que é mostrado <a href=\"https://drive.google.com/file/d/0B5r7IFNBQyqQM3o3UkkxQWUtdUE/view\">neste link</a>  🙃"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ComoEntroSlack",
+      "dialog_node": "node_7_1571621752606",
+      "previous_sibling": "node_4_1571606971410"
+    },
+    {
+      "type": "standard",
+      "title": "29 - Posso utilizar o IEEE como estágio?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As atividades desenvolvidas como membro e voluntário do IEEE não tem a validade para serem submetidas como estágio supervisionado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#valeEstagio",
+      "dialog_node": "node_4_1571606971410",
+      "previous_sibling": "node_5_1571606732261"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings II",
+      "output": {
+        "text": {
+          "values": [
+            "Eu vou bem! E Você, está tendo um ótimo dia? 🙃"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#ComoVai",
+      "dialog_node": "node_10_1569268560561",
+      "previous_sibling": "node_7_1569268442826"
+    },
+    {
+      "type": "standard",
+      "title": "2 - O que é IEEE UNIFACS STUDENT BRANCH ",
+      "output": {
+        "text": {
+          "values": [
+            "IEEE UNIFACS STUDENT BRANCH o braço acadêmico do IEEE dentro da Universidade Salvador – UNIFACS. Foi fundado em 14 de julho de 2004 e é formado por estudantes voluntários e professores da graduação que têm, como objetivo, difundir os benefícios do IEEE, através realização de pesquisas técnicas-científicas, projetos (acadêmicos, técnicos e sociais), eventos, workshops, minicursos, visitas técnicas e outras atividades. Outro objetivo é promover a integração social entre os estudantes das engenharias e de outros cursos da Universidade tornando, assim, a realidade dos alunos bem mais técnica e aplicada ao mercado de trabalho atual."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#oqehIEEEUSB",
+      "dialog_node": "node_5_1568519190306",
+      "previous_sibling": "node_8_1568231461124"
+    },
+    {
+      "type": "standard",
+      "title": "8 - Existe alguma taxa para se filiar ?",
+      "output": {
+        "text": {
+          "values": [
+            "Não existe nenhuma taxa de filiação ao IEEE UNIFACS Student Branch. Somos uma instituição sem fins lucrativos. 🤟"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#Taxafiliar",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1568261071478",
+      "previous_sibling": "node_1_1568231507445"
+    },
+    {
+      "type": "standard",
+      "title": "20 - como eu faço pra submeter um artigo? (NC)",
+      "conditions": "#submeteArtigo",
+      "dialog_node": "node_7_1568523416215",
+      "previous_sibling": "node_2_1568523325303"
+    },
+    {
+      "type": "standard",
+      "dialog_node": "node_7_1574730174632",
+      "previous_sibling": "node_8_1574822753428"
+    },
+    {
+      "type": "standard",
+      "title": "5.1 - PES(Atualizar numero de membros)",
+      "output": {
+        "text": {
+          "values": [
+            "O IEEE PES UNIFACS Student Chapter foi aprovado oficialmente pelo IEEE no dia 14 de Junho de 2016 e possui 13 membros até o momento, todos graduandos em Engenharias na Universidade Salvador. Somos uma representação da sociedade de Potência e Energia do IEEE e trabalhamos para fornecer a melhor experiência técnica aos seus membros baseado na missão do IEEE PES.  \"Ser o fornecedor líder de informações científicas e de engenharia sobre energia elétrica e energia para o melhoramento da sociedade e a fonte de desenvolvimento profissional preferencial para nossos membros.\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": " @Capitulos:PES",
+      "dialog_node": "node_6_1568520527835",
+      "previous_sibling": "node_7_1568519672338"
+    },
+    {
+      "type": "standard",
+      "title": "13 - O que é um capítulo técnico estudantil?",
+      "output": {
+        "text": {
+          "values": [
+            "Um Capítulo Técnico Estudantil é uma organização alinhada a uma sociedade técnica do IEEE mundial que desenvolve atividades associadas ao tema proposto. O ramo estudantil pode ter vários capítulos técnicos associados. 👩‍🎓👨‍🎓📚"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#oqehCapitulo",
+      "dialog_node": "node_6_1568522257611",
+      "previous_sibling": "node_8_1568522236110"
+    },
+    {
+      "type": "standard",
+      "title": "5.4 - IAS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Industry Applications Society (IAS) é uma valiosa conexão profissional, uma das maiores sociedades de interesse especial do IEEE que se concentra especificamente nas necessidades exclusivas da indústria e do comércio e conta atualmente com quase 10.000 membros mundiais."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#EngQuimicaIAS && @Capitulos:IAS",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1574730227181",
+      "previous_sibling": "node_2_1568520616386"
+    },
+    {
+      "type": "standard",
+      "title": "9 - Como posso desenvolver uma atividade pelo IEEE?",
+      "output": {
+        "text": {
+          "values": [
+            "Para desenvolver uma atividade ou projeto pelo IEEE basta participar das reuniões e estar disposto a fazer a diferença no que se propõe em fazer pelo ramo.                     Para propor uma atividade ao ramo estudantil, é preciso que você seja um voluntário ativo do ramo para que, assim, possa submeter sua proposta de acordo com a TAP (Termo de Abertura de Projeto).  🙂\n "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#oqpossodesenvolver",
+      "dialog_node": "node_2_1568261280027",
+      "previous_sibling": "node_5_1568261071478"
+    },
+    {
+      "type": "standard",
+      "title": "19 - O que o IEEE pode agregar para mim ? ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Além de todo conhecimento que pode ser agregado ao participar do ramo estudantil, se destacam ainda:<br>\n<br>\n• A possibilidade de propor e liderar a própria atividade.<br>\n• Direito à eleição de cargo Administrativo ou técnico.<br>\n• Poder de voto nas decisões da reunião e/ou em situação que o ramo venha a enfrentar.<br>\n• Prioridade em atividades voltada à organização Ex: cursos, visitas técnicas, capacitações.<br>\n• Possibilidade de subsidio para eventos do IEEE. Ex RNR, RRR…<br>\n• E-mail dedicado seunome@ieee.org<br>\n• Acesso a Biblioteca Mundial IEEE Xplore Digital Library<br>\n• Google Drive com 30 GB<br>\n• Acesso a rede social IEEE Collabratec<br>\n• E muito mais...<br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#OqIEEEagrega",
+      "dialog_node": "node_2_1568523325303",
+      "previous_sibling": "node_3_1568231227093"
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "text": {
+          "values": [
+            "Olá! Eu me chamo CIEEEBot! 👋😄  Eu sou o assistente de busca do IEEE Universidade Salvador Branch. Eu posso tirar dúvidas, e lhe prover informações sobre a organização IEEE e seu ramo estudantil na Unifacs. Gostaria de saber alguma coisa ? 😊",
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    }
+  ],
+  "workspace_id": "3a45c6af-538f-40ca-baef-92b343ef329f",
+  "counterexamples": [
+    {
+      "text": "bem"
+    },
+    {
+      "text": "carro"
+    },
+    {
+      "text": "O que faz o Ras"
+    }
+  ],
+  "system_settings": {},
+  "learning_opt_out": false,
+  "status": "Available"
+}
